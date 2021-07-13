@@ -1,0 +1,56 @@
+<html>
+
+<head>
+
+	<!-- Basic Page Needs -->
+	<title>RPS</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+
+	<!-- Meta Data -->
+	<meta content="RPS" property="og:title" />
+	<meta content="Rock Paper Scissors Game!" property="og:description" />
+	<meta content="Rock Paper Scissors Game!" name="description" />
+	<meta name="theme-color" content="#98ff98">
+	<meta content="https://ifiremonkey.me/../assets/images/profile.jpg" property="og:image" />
+	<link rel="icon" type="image/x-icon" href="../assets/images/favicon.png">
+
+	<!-- Twitter Embed [Required] -->
+	<meta name="twitter:site" content="@FireMonkey__">
+	<meta name="twitter:card" content="summary">
+
+	<!-- CSS & JavaScript -->
+	<link href="../assets/css/modesta.css" type="text/css" rel="stylesheet">
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script src="script.js"></script>
+
+</head>
+
+<body>
+<div class="fullscreen">
+	<div class="background" style="background-image: url('../assets/images/BGs/bg1.gif');"></div>
+	<!-- Custom Website Code-->
+	<div class="center-object" style="height: 120%">
+		<p><span id="player"></span> <span id="opponent"></span></p>
+		<h2 id="results" style="align-content: center"></h2>
+		<div class="one-full column">
+			<h5 style="text-align: center"><span id="wins">0</span> Won | <span id="loses">0</span> Lost</h5></div>
+		<a onclick="reset()" class="btn animation black hover">Reset Score</a>
+	</div>
+		</aside>
+	</div>
+	<div class="center-object" style="height: 50%">
+		<div class="me">
+			<h1 class="title" style="width: 100%;text-align: center">Rock, Paper, Scissors</h1>
+		</div>
+		<div class="buttons">
+			<a onclick="play('rock')" class="btn animation snapchat" style="background-image: url('images/rock.png');background-size: 100px;height: 100px;width: 100px"></a>
+			<a onclick="play('paper')" class="btn animation snapchat" style="background-image: url('images/paper.png');background-size: 100px;height: 100px;width: 100px"></a>
+			<a onclick="play('scissors')" class="btn animation snapchat" style="background-image: url('images/scissors.png');background-size: 100px;height: 100px;width: 100px"></a>
+		</div>
+	</div>
+</div>
+</section>
+</body>
+
+</html>
